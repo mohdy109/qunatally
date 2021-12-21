@@ -1,0 +1,185 @@
+.flexi_core{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.decentra_mobile{
+    width: 250px;
+}
+.core_head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #1B1B1B;
+    /* margin-left: 100px; */
+}
+
+.core_para{
+    width: 600.19px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    color: #383838;
+    /* margin-left: 100px; */
+}
+
+.left_core{
+    margin-left: 100px;
+}
+
+.right_core{
+    margin-right: 100px;
+}
+
+.buttons_core{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.benefit_button{
+    width: 228px;
+    height: 40px;
+    background: linear-gradient(90deg, #312CC2 1.7%, #4D52E6 47.74%, #5868FE 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: Poppins;
+}
+
+@media screen and (max-width:420px) {
+    .only_this{
+        margin-left: 140px !important;
+    }
+    .core_main{
+        position: relative;
+        bottom: 230px !important;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        /* top: 0;
+        left: 0; */
+    }
+    .flexi_core{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .decentra_mobile{
+        width: 100px;
+        margin-left: 20px ;
+    }
+
+    .core_head{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 30px;
+        color: #1B1B1B;
+        position: relative;
+        bottom: 80px;
+        width: 156px;
+        margin-left: 180px;
+    }
+    .core_para{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+        color: #383838;
+        width: 335px ;
+        position: relative;
+        right: 110px;
+        bottom: 30px;
+        margin-left: 125px;
+    }
+    .res_images{
+        position: relative;
+        bottom: 240px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .res_core_head{
+        position: relative;
+        top: 0px;        
+    }
+    .res_core_para{
+        position: relative;
+        top: 80px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+        color: #383838;
+        width: 335px;
+    }
+    .core_network{
+        position: relative;
+        bottom: 80px;
+    }
+    .payment_cores{
+        position: relative;
+        bottom: 100px;
+    }
+    .buttons_core{
+        position: relative;
+        bottom: 130px;
+    }
+}
+
+ @media screen and (min-width:700px) and (max-width: 1024px) {
+    .decentra_mobile{
+        position: relative;
+        right: 300px;
+    }
+    .left_core{
+        position: relative;
+        left: 130px;
+        bottom: 250px;
+    }
+    .second_cores{
+        position: relative;
+        bottom: 180px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+    .res_core_para{
+        width: 500px;
+    }
+    .res_images{
+        position: relative;
+        right: 80px;
+    }
+    .core_network{
+        position: relative;
+        bottom: 80px;
+        right: 60px;
+    }
+    .payment_cores{
+        position: relative;
+        bottom: 220px;
+
+    }
+    .buttons_core{
+        position: relative;
+        bottom: 180px;
+    }
+} 
+
+
+@media screen and (min-width:500px) and (max-width:768px){
+
+}

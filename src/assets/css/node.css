@@ -1,0 +1,132 @@
+.node_ope{
+    width: 1183.37px;
+    height: 553.84px;
+    background: #EEEFFF;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joining{
+        margin-top: 30px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+text-transform: capitalize;
+color: #1B1B1B;
+}
+
+.all_subs{
+    width: 1183.37px;
+    height: 133.34px;
+    background: #EEEFFF;
+    border-radius: 3px;
+
+}
+
+.all_texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.names{
+    margin-left: 50px;
+    width: 372.23px;
+    height: 46.4px;
+    margin-top: 40px;
+    border: none;
+}
+.id{
+    width: 372.23px;
+height: 46.4px;
+margin-top: 40px;
+}
+.node_submit{
+    width: 169px;
+    height: 46px;
+    color: #fff;
+    background: linear-gradient(90deg, #322DC3 0%, #5968FE 100%);
+    border: 0.2px solid #2E29BA;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px rgba(186, 192, 255, 0.57);
+    border-radius: 1px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 420px){
+    .node_main_div{
+        position: relative;
+        bottom: 800px;
+    }
+    .node_ope{
+        width: 344px;
+        height: 161px;
+        margin-left: 5px;
+    }
+    .all_subs{
+        width: 331px;
+        height: 207px;
+        margin-left: 10px;
+    }
+    .all_texts{
+        display: block;
+        position: relative;
+        bottom: 20px;
+    }
+    .names{
+        width: 279px;
+        height: 34.78px;
+        position: relative;
+        right: 30px;
+        padding: 10px;
+        border: none;
+        color: #433ED1;
+    }
+    .id{
+        width: 279px;
+        height: 34.78px;
+        position: relative;
+        right: -20px;
+        border: none;
+        padding: 10px;
+        color: #433ED1;
+    }
+    .node_submit{
+        width: 130.65px;
+        height: 35.13px;
+        margin-left: 80px;
+        position: relative;
+        bottom: 10px;
+    }
+}   
+
+@media screen and (max-width:1280px) {
+    .id{
+        border: 1px solid gray;
+    }
+    .names{
+        border: 1px solid gray;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:768px){
+    .node_ope{
+        width: 700px !important;
+    }
+    .all_subs{
+        width: 700px !important;
+    }   
+    .id{
+       margin-left: 10px;
+       margin-right: 10px; 
+    }
+}

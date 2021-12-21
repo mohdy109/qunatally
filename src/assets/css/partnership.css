@@ -1,0 +1,57 @@
+.part_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #F0F0FF; */
+    width: 377px;
+    height: 136px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.second_res{
+    position: relative;
+    right: 10px;
+    z-index: -10;
+    bottom: 8px;
+}
+
+.part_op{
+    position: relative;
+    top: 100px;
+}
+
+.nextx{
+    margin-top: 50px;
+}
+
+
+@media(max-width:420px){
+    .part_img{
+        width: 154.53px;
+        height: 56.09px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .part_imgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+    .part_op{
+        position: relative;
+        top: -850px;
+    }
+    .res_partnership_image{
+        position: relative;
+        bottom: 800px;
+    }
+    .part_news{
+        width: 250px;
+        height: 100px;
+    }
+}

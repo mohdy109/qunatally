@@ -1,0 +1,285 @@
+.topic_para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #383838;
+    width: 1059.9px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.teams_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 230px;
+ 
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+}
+
+.first_member{
+    width: 250px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 17px #E5E7FF;
+    border-radius: 1px;
+    margin-top: 90px;
+    border: 0.5px solid #5F5CA9;
+}
+
+.sec_member{
+    width: 198px;
+    height: 236px;
+    border: 0.5px solid #5F5CA9;
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+
+.third_member{
+    width: 198px;
+    height: 236px;
+    border: 0.5px solid #5F5CA9;
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+
+.four_member{
+    margin-top: 150px;
+    width: 198px;
+    height: 236px;
+    border: 0.5px solid #5F5CA9;
+    box-sizing: border-box;
+    
+}
+.heads_parass{
+    width: 1059.9px;
+    height: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #383838;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.sec_mem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_itss{
+    width: 246px;
+    height: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #383838;
+    margin-left: 10px;
+}
+.team_mem_name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1B1B1B;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.team_mem_occ{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B1B1B;
+    text-align: center;
+}
+
+.third_mem{
+    width: 198px;
+    height: 236px;
+    border: 0.5px solid #5F5CA9;
+    box-sizing: border-box;
+}
+
+.decen_headear{
+    width: 246px;
+    height: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    position: relative;
+    top: 30px;
+    color: #383838;
+    margin-left: 20px;
+}
+
+.decen_para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #383838;
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+}
+
+@media screen and  (max-width:420px){
+    .team_div{
+        position: relative;
+        bottom: 40px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .res_team_first{
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .topic_para{
+        width: 340px;
+        position: relative;
+        right: 50px;
+    }
+    .res_team_sec{
+        position: relative;
+        left: -7px;
+        top: 25px;
+
+    }
+    .decen_headear{
+        margin-top: 500px;
+        position: relative;
+        right: 20px;
+        top: -70px !important;
+    }
+
+    .decen_para{
+        position: relative;
+        right: 30px;
+        top: -60px !important;
+        width: 280px;
+    }
+    .teams_list{
+        margin-top: 100px;
+    }
+    .main_how_div{
+        position: relative;
+        bottom: 50px;
+        left: 10px;
+    }
+    .fades_one{
+        position: relative;
+        right: 50px;
+        width: 9.78px;
+        height: 29.33px;
+    }
+    .fades_two{
+        position: relative;
+        right: 55px;
+        width: 9.78px;
+        height: 29.33px;
+        top: -4px;
+    }
+
+    .how_itss{
+        position: relative;
+        bottom: 30px;
+        right: 30px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #433ED1;
+    }
+    .heads_parass{
+        width: 343px;
+        height: 120px;
+        position: relative;
+        right: 65px;
+        bottom: 50px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .teams_list{
+        position: relative;
+        bottom: 160px;
+        display: flex ;
+        justify-content: space-between;
+        width: 320px;
+        padding: 10px;
+    }
+    .first_member{
+        width: 128.7px;
+        height: 153.4px;
+        border: 0.325px solid #5F5CA9;
+        box-sizing: border-box;
+    }
+    .first_mem{
+        width: 100px;
+        margin-left: 10px;
+    }
+    .sec_mem{
+        width: 80px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .team_mem_name{
+        width: 143.45px;
+        height: 13px;
+        text-align: center;
+    }
+    .team_mem_occ{
+        width: 133.45px;
+        height: 13px;
+        text-align: center;
+    }
+    .sec_member{
+        width: 128.7px;
+        height: 153.4px;
+        border: 0.325px solid #5F5CA9;
+        box-sizing: border-box;
+    }
+    .third_member{
+        width: 128.7px;
+        height: 153.4px;
+        border: 0.325px solid #5F5CA9;
+        box-sizing: border-box;
+        margin-top: 130px;
+    }
+    .four_member{
+        width: 128.7px;
+        height: 153.4px;
+        border: 0.325px solid #5F5CA9;
+        box-sizing: border-box;
+        position: relative;
+        bottom: 20px;
+        
+    }
+    .res_name{
+        margin-top: 65px;
+    }
+    .res_names{
+        margin-top: 50px;
+    }
+}

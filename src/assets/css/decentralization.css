@@ -1,0 +1,463 @@
+.update {
+    padding-top: 208rem;
+    position: relative;
+  }
+  
+  .decentralization_div {
+    width: 88%;
+    margin: auto;
+  }
+
+ 
+  .two_arrows{
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .carousel-control-pre{
+    color: gray;
+    margin-left: 30px !important;
+  }
+
+  .carousel-control-pre:hover{
+    color: black;
+  }
+
+  .carousel-control-nex{
+    color: gray;
+    margin-top: 730px;
+    width: 10px;
+    position: absolute;
+    right: 520px;
+    bottom: 100px;
+  }
+
+  .first_left_arrows{
+    width: 80px;
+    height: 50px;  
+    background: #FFFFFF;
+    border: 1.22596px solid #939EFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+    border-radius: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-left: 100px;
+    margin-right: 40px;
+  }
+
+  .first_right_arrow{
+    width: 80px;
+    border: 1.22596px solid #939EFF;
+    height: 50px; 
+    box-sizing: border-box;
+    box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+    border-radius: 1px;
+    
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+
+  /* .first_right_arrows{
+    width: 80px;
+    height: 50px;  
+    background: #FFFFFF;
+    border: 1.22596px solid #939EFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+    border-radius: 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-right: 500px;
+  } */
+  
+  .inner_decen {
+    display: flex;
+    align-items: center;
+  }
+  
+  .second {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+  }
+  
+  .decen_head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 45px;
+    color: #383838;
+    margin-left: 20px;
+  }
+  
+  .decentralization_cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+  
+  .first_decentralization_card {
+    width: 580px;
+    height: 260px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .second_decentralization_card {
+    width: 580px;
+    height: 330px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .third_decentralization_card {
+    width: 580px;
+    height: 340px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .four_decentralization_card {
+    width: 580px;
+    height: 264px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 75px;
+    margin-bottom: 10px;
+  }
+  
+  .decen_first_divs {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .blazing {
+    width: 62.49px;
+    height: 59.89px;
+  }
+  
+  .blazing_head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1b1b1b;
+    margin-left: 20px;
+  }
+  
+  .blaz_para {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 38px;
+    color: #1b1b1b;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .update{
+    position: relative;
+    bottom: 150px;
+  }
+
+  .two_carousel{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .first_carousel{
+    background: #FFFFFF;
+    border: 1.22596px solid #939EFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+    border-radius: 1px;
+    width: 80px;
+    height: 50px;
+  }
+  /* .first_carousel:hover{
+    background: linear-gradient(90deg, #322DC3 0%, #5868FE 100%);
+box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+border-radius: 1px;
+color: black;
+  }
+  .second_carousel:hover{
+    background: linear-gradient(90deg, #322DC3 0%, #5868FE 100%);
+box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+border-radius: 1px;
+  } */
+  .second_carousel{
+    background: #FFFFFF;
+    border: 1.22596px solid #939EFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+    border-radius: 1px;
+    width: 80px;
+    height: 50px;
+    margin-left: 50px;
+    
+  }
+  .pehla{
+    height: 50px;
+    margin-top: 780px;
+    margin-left: 580px;
+    color:black
+  }
+  .dusra{
+    color: black;
+    margin-top: 750px;
+    margin-right: 580px;
+  }
+  
+  @media (max-width: 420px) {
+    .decentralization_divs {
+      width: 95%;
+      margin: auto;
+     position: relative;
+     bottom: 200px;
+    }
+    .update{
+      position: relative;
+      bottom: 650px;
+    }
+    .first_res{
+      width: 9.78px;
+      height: 29.33px;
+    }
+    .second_res {
+      width: 9.78px;
+      height: 29.33px;
+      position: relative;
+      left: -6px;
+      bottom: 1px;
+      z-index: -2;
+    }
+    .decen_head {
+      width: 311px;
+      height: 60px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #383838;
+      margin-top: 10px;
+    }
+    .first_decentralization_card {
+      width: 335px;
+      height: 170px;
+      margin-bottom: 20px;
+    }
+    .blazing {
+      width: 38.37px;
+      height: 36.77px;
+      position: relative;
+      bottom: 10px;
+    }
+    .blazing_head {
+      width: 231px;
+      height: 22px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1b1b1b;
+      position: relative;
+      bottom: 10px;
+    }
+    .blaz_para {
+      width: 323px;
+      height: 76px;
+      position: relative;
+      bottom: 10px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 25px;
+      color: #383838;
+    }
+    .second_decentralization_card {
+      width: 335px;
+      height: 242px;
+      margin-bottom: 20px;
+    }
+    .third_decentralization_card {
+      width: 335px;
+      height: 271px;
+      margin-bottom: 20px;
+    }
+    .four_decentralization_card {
+      width: 335px;
+      height: 213px;
+      position: relative;
+      bottom: 75px;
+    }
+    .first_arrow {
+      width: 50px;
+    }
+    .decentralization_cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .lefts_arrows{
+      width: 50px;
+      height: 30px;
+      background: #FFFFFF;
+      border: 1.22596px solid #939EFF;
+      box-sizing: border-box;
+      box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+      border-radius: 1px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      right: 0px;
+    }
+    .right_arrows{
+        width: 50px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1.22596px solid #939EFF;
+        box-sizing: border-box;
+        box-shadow: 0px 2.45193px 7.35579px rgba(67, 62, 209, 0.14);
+        border-radius: 1px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        right: 0px;
+    }
+  
+    .two_carousel{
+      position: absolute;
+      bottom: 10px;
+      width: 300px;
+      height: 60px;
+      display: none;
+
+    }
+    .pehla{
+      border: 10px solid black;
+      margin-top: 800px;
+    }    
+  }
+  
+  
+  .second_res{
+      position: relative;
+      right: 10px;
+      z-index: -10;
+      bottom: 8px;
+  }
+  
+  @media screen and (min-width:568px) and (max-width: 1024px) {
+    .decentralization_cards{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .first_decentralization_card{
+      margin-top: 30px;
+    }
+    .second_decentralization_card{
+      margin-top: 30px;
+      position: relative;
+      right: 15px;
+    }
+    .third_decentralization_card{
+      margin-top: 30px;
+    }
+    .four_decentralization_card{
+      margin-top: 30px;
+      position: relative;
+      bottom: 70px;
+      right: 15px;
+    }
+  }
+
+
+   @media screen and (min-width:798px) and (max-width: 1280px) {
+        .first_decentralization_card{
+            width: 500px ;
+            margin-right: 30px;
+        }
+        .second_decentralization_card{
+            width: 500px;
+        }
+        .third_decentralization_card{
+            width: 500px;
+            margin-right: 30px;
+            height: 390px;
+        }
+        .four_decentralization_card{
+            width: 500px;
+            height: 294px;
+            margin-top: 100px;
+        }
+        .two_arrows{
+          position: relative;
+          bottom: -20px !important;
+          border: 10px solid black;
+          margin-top: 30px;
+
+        }
+        .first_carousel{
+          width: 80px !important;
+          height: 50px !important;
+          font-size: 30px;
+          margin-top: 50px;
+        }
+        .second_carousel{
+          width: 80px !important;
+          height: 50px !important;
+          font-size: 30px;
+          margin-top: 50px;
+        }
+        .dusra{
+            margin-top: 900px;
+            width: 110px;
+        }
+        .pehla{
+          margin-top: 880px;
+          position: absolute;
+          width: 110px;
+        }
+
+        .dusra:hover{
+          color: black;
+        }
+        .pehla:hover{
+          color: black;
+        }
+        
+        
+  } 
+
+  
+@media screen and (min-width:500px) and (max-width:768px){
+  .two_arrows{
+    display: none;
+  }
+  .first_carousel{
+    display: none;
+  }
+  .second_carousel{
+    display: none;
+  }
+  .second_decentralization_card{
+    margin-left: 30px;
+  }
+  .four_decentralization_card{
+    margin-top: 110px;
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,117 @@
+.use_it{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #383838;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+/* .carousel-control-next{
+    border: 10px solid black;
+    color: black;
+} */
+
+.use_imgs_div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.how_works_imgss{
+    width: 1100px;
+    height: 229.13px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.home_img{
+    width: 500px !important;
+    object-fit:contain;
+    margin-bottom: 30px;
+    height:50px;
+    margin-left: 30px;
+    /* margin-top: 20px; */
+    cursor: pointer;
+    margin-right: 60px;
+    height: 200px;
+}
+
+.axs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    height: 51px;
+}
+
+.cases_btn{
+    background: linear-gradient(90deg, #312CC2 1.7%, #4D52E6 47.74%, #5868FE 100%);
+    border-radius: 4px;
+    border: none;
+    outline:none
+   
+}
+
+.how_works_enter{
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.frows{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.rums{
+    border: none;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.main_use_cases{
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width:420px) {
+    .usecase_div{
+        position: relative;
+        bottom: 70px;
+    }
+    .use_imgs_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_img{
+        width: 230px !important;
+        margin-left: 50px;
+        /* border: 10px solid black; */
+        height: 100px;
+    }
+    .bottom_use_case_flex {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+}
+
+
+
+@media screen and (min-width: 777px) and (max-width:1280px){
+    .home_img{
+        width: 400px !important;
+        height: 200px;
+    }
+    .bottom_use_case_flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+    }
+}

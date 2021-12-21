@@ -1,0 +1,71 @@
+.main_countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.countdown{
+    background: linear-gradient(91.57deg, #332EC4 0.14%, #5867FE 83.18%);
+    border-radius: 6px;
+    width: 966px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown_date{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.countdown_sale{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.countdown_day{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-right: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.countdown_days{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 60px;
+}
+.countdown_seperate{
+    margin-left: 100px;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 1000px){
+   .main_countdown{
+       display: none;
+   }
+}

@@ -1,0 +1,528 @@
+/* .timeline_div{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+
+.time_first_flex{
+    display: flex;
+    
+}
+
+.time_first_block{
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.first_timeline{
+    width: 100.88px;
+    height: 100.88px;   
+    background: #EEEFFF;
+    border: 1px solid #E0DFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.milestone_title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #433ED1;
+}
+
+.milestone_date{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383838;
+}
+
+.arrows{
+    margin-top: 30px;
+}
+
+.left_side_timeline{
+    margin-left: 190px;
+}
+
+
+
+.time_fir{
+    display: none;
+}
+
+.ellip5{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.time_sec{
+    display: none;
+}
+
+@media screen and (max-width: 420px){
+    .res_timeline_div{
+        position: relative;
+        bottom: 700px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .bottom_timeline_div{
+        display: none;
+    }
+    .arrows{
+        display: none;
+    }
+    .time_fir{
+        display: block;
+        position: relative;
+        right: 105px;
+        margin-top: 50px;
+    }
+    .time_first_block{
+        position: relative;
+        right: 350px;
+
+    }
+    .milestone_title{
+        width: 200px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .milestone_date{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .sec_timeline{
+        position: relative;
+        right: 380px;
+        margin-top: 180px;
+    }
+    .firsts{
+        width: 80px;
+        position: relative;
+        right: 50px;
+    }
+    .ellip5{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+    .second_timeline{
+        position: relative;
+        right: 400px;
+        top: 110px;
+    }
+    .second_title{
+        position: relative;
+        right: 550px;
+        top: 100px;
+    }
+    .second_date{
+        position: relative;
+        right: 550px;
+        top: 90px;
+    }
+    .time_sec{
+        display: block;
+        position: relative;
+        right: 700px;
+        top: 140px;
+    }
+    .third_timeline{
+        position: relative;
+        right: 1240px;
+        top: 230px;
+    }
+    .third_milestone{
+        position: relative;
+        right: 930px;
+        top: 230px;
+    }
+    .third_date{
+        position: relative;
+        right: 930px;
+        top: 220px;
+    }
+} */
+
+/* @media screen and (max-width: 1280px) {
+        .first_timeline{
+            position: relative;
+            right: 30px;
+        }
+        .fks_right{
+            position: relative;
+            right: -1200px;
+            bottom: 23px;
+        }
+        .fks{
+            position: relative;
+            top: 26px;
+        }
+        
+} */
+
+.timeline_div{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+    .lorem{
+        margin-left: 80px;
+        margin-top: 30px;
+        width: 337.97px;
+        height: 151.23px;
+        background: #FFFFFF;
+        box-shadow: -2px 2px 8px rgba(229, 228, 255, 0.83);
+        border-radius: 2px;
+        margin-bottom: 20px;
+        
+    }
+
+.res_times{
+    margin-top:180px;
+}
+
+.lorem_text{
+    width: 281.07px;
+    height: 88.79px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    color: #1B1B1B;
+    margin-right: 200px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+
+.flex_timeline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ellip{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.milestone_title{
+    width: 145.26px;
+    height: 30.26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #433ED1;
+    margin-left: 10px;
+}
+
+.milestone_date{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383838;
+    margin-left: 10px;
+}
+
+.next{
+    position: relative;
+    bottom: 24px;
+}
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    margin-left: 180px;
+}
+
+.corner{
+    background: linear-gradient(270deg, #FFFFFF 40.8%, rgba(255, 255, 255, 0.514019) 80.53%, rgba(255, 255, 255, 0) 98.13%);
+}
+
+.bluri_divs{
+    width: 1183.37px;
+    height: 553.84px;
+    background: #EEEFFF;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.video{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.join_head{
+    margin-left: 55px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: capitalize;
+    color: #1B1B1B;
+    margin-top: 40px;
+}
+
+.name_node_email{
+    width: 1183.37px;
+    height: 133.34px;
+    background: #EEEFFF;
+    border-radius: 3px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.node_name{
+    width: 372.23px;
+    height: 46.4px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.node_email{
+    width: 169px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #322DC3 0%, #5968FE 100%);
+    border: 0.2px solid #2E29BA;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px rgba(186, 192, 255, 0.57);
+    border-radius: 1px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+input::placeholder{
+    color: #433ED1;
+    padding: 20px;
+}
+
+.time_fir{
+    display: none;
+}
+.timesec_fir{
+    display: none;
+}
+
+.res_last{
+    display: none;
+}
+
+.second_res{
+    position: relative;
+    right: 10px;
+    z-index: -10;
+    bottom: 8px;
+}
+
+.res_times{
+    position: relative;
+    top: 60px;
+}
+
+/* @media(max-width:388px){
+    .res_ellp{
+        position: relative;
+        right: 0px !important;
+        top: -35px !important;
+    }
+    .res_sec_to{
+        position: relative;
+        bottom: 100px !important;
+    }
+
+    .fks{
+        display: none;
+    }
+} */
+
+@media(max-width:420px){
+    #lorem_timeline{
+        display: none;
+    }
+    .res_timeline_div{
+        position: relative;
+        bottom: 650px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+    .first_miletitle{
+        position: relative;
+        right: 230px !important;
+    }
+    .first_miledate{
+        position: relative;
+        right: 230px !important;
+        bottom: 10px;
+    }
+    .res_times{
+        position: relative;
+        top: -850px;
+    }
+    .line{
+        display: none;
+    }
+    .als_res{
+        display: none;
+    }
+    .ellip5{
+        width: 68.92px;
+        height: 68.92px;
+        margin-left: 5px;
+    }
+    .fks{
+        display: none;
+    }
+    .lorem{
+        display: none;
+    }
+    .milestone_title{
+        position: relative;
+        right: 120px;
+        font-size: 13px;
+    }
+    .milestone_date{
+        position: relative;
+        right: 120px;
+        font-size: 13px;
+
+    }
+    .time_fir{
+        display: block;
+        position: relative;
+        left: 30px;
+        width: 300px;
+    }
+    .timesec_fir{
+        display: block;
+        width: 300px;
+        position: relative;
+        right: 270px !important;
+    }
+    .next{
+        position: relative;
+        left: 290px;
+        bottom: 40px;
+    }
+    .res_sec_to{
+        position: relative;
+        /* right: 300px; */
+        bottom: 30px;
+    }
+    .timesec_fir{
+        display: block;
+        position: relative;
+        top: 120px;
+        right: 170px;
+    }
+
+    .time_firss{
+        position: relative;
+        right: 260px;
+        width: 300px;
+        bottom: 35px;
+    }
+    .res_time_res{
+        position: relative;
+        left: -5px !important;
+        margin-top: 40px;
+    }
+    .res_last{
+        display: block;
+    }
+    .res_sec_tos{
+        position: relative;
+        right: 190px;
+    }
+    .res_ellp{
+        position: relative;
+        right: 10px;
+        bottom: 40px;
+    }
+    .first_miletitles{
+        position: relative;
+        left: 10px;
+    }
+    .first_miledates{
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+    .upper{
+        position: relative;
+        bottom: 110px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1280px) {
+.res_timeline_div{
+    width: 100%;
+height: 100%;
+margin: 0;
+overflow: hidden;
+}
+.als_res{
+    position: relative;
+    right: 100px !important;
+}
+#lorem_timeline{
+    display: none;
+}
+}
