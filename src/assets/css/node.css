@@ -1,0 +1,300 @@
+.node_ope{
+    width: 1183.37px;
+    height: 553.84px;
+    background: #EEEFFF;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type="text"]{
+    padding: 10px;
+}
+.joining{
+        margin-top: 30px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+text-transform: capitalize;
+color: #1B1B1B;
+}
+
+.all_subs{
+    width: 1183.37px;
+    height: 133.34px;
+    background: #EEEFFF;
+    border-radius: 3px;
+
+}
+
+.all_texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.names{
+    margin-left: 50px;
+    width: 372.23px;
+    height: 46.4px;
+    margin-top: 40px;
+    border: none;
+}
+.id{
+    width: 372.23px;
+height: 46.4px;
+margin-top: 40px;
+border: none;
+}
+.node_submit{
+    width: 169px;
+    height: 46px;
+    color: #fff;
+    background: linear-gradient(90deg, #322DC3 0%, #5968FE 100%);
+    border: 0.2px solid #2E29BA;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px rgba(186, 192, 255, 0.57);
+    border-radius: 1px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 420px){
+    
+    .node_main_div{
+        position: relative;
+        bottom: 500px;
+    }
+    .node_ope{
+        width: 80%;
+        height: 161px;
+        margin-left: 5px;
+        margin: auto;
+    }
+    .all_subs{
+        width: 80%;
+        height: 207px;
+        margin-left: 10px;
+        margin: auto;
+    }
+    .all_texts{
+        display: block;
+        position: relative;
+        bottom: 20px;
+    }
+    .names{
+        width: 259px;
+        height: 34.78px;
+        position: relative;
+        right: 30px;
+        padding: 10px;
+        border: none;
+        color: #433ED1;
+    }
+    .id{
+        width: 259px;
+        height: 34.78px;
+        position: relative;
+        right: -20px;
+        border: none;
+        padding: 10px;
+        color: #433ED1;
+        outline: none;
+    }
+    .node_submit{
+        width: 130.65px;
+        height: 35.13px;
+        margin-left: 80px;
+        position: relative;
+        bottom: 10px;
+    }
+    .join_us_now{
+        margin-left: 40px;
+    }
+}   
+
+@media screen and (max-width:1280px) {
+    .id{
+        border: 1px solid gray;
+    }
+    .names{
+        border: 1px solid gray;
+    }
+    .join_us_now{
+        margin-left: 20px !important;
+    }
+    .node_head_top{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    .node_main_div{
+        position: relative;
+        right: -10px !important;
+    }
+    .node_ope{
+        width: 700px !important;
+    }
+    .all_subs{
+        width: 700px !important;
+    }   
+    .id{
+       margin-left: 50px;
+    }
+    .names{
+        position: relative;
+        right: 30px;
+    }
+    .id{
+        position: relative;
+        right: 30px;
+    }
+   
+}
+
+@media screen and (min-width:500px) and (max-width:540px){
+    .node_head_top{
+        position: relative;
+        left: 350px;
+    }
+    .join_us_now{
+        position: relative;
+        left: 350px;
+    }
+    .all_texts{
+        display: block !important;
+    }
+    .names{
+        width: 130px;
+        margin-left: 380px;
+    }
+    .id{
+        width: 130px;
+        margin-left: 20px;
+    }
+    .node_submit{
+        width: 130px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    .node_main_div{
+        position:relative;
+        right:-130px
+    }
+    .node_ope{
+        text-align:center;
+        display:flex;
+        justify-content:center;
+        align-items:center
+    }
+    .names{
+        position: relative;
+        right: -10px;
+        width: 250px;
+    }
+    .id{
+        position: relative;
+        right: -10px;
+        width: 250px;
+        margin-left: 50px;
+    }
+    .node_submit{
+        border: 1px solid black;
+        margin-left: 250px;
+    }
+    .all_texts{
+        display: block;
+    }
+    input[type="text"]{
+        padding: 10px;
+    }
+    .all_subs{
+        height: 200px;
+    }
+    
+}
+
+@media screen and (min-width:770px) and (max-width:1024px){
+    .node_main_div{
+        position:relative;
+        right:-130px
+    }
+    .node_ope{
+        text-align:center;
+        display:flex;
+        justify-content:center;
+        align-items:center
+    }
+    .names{
+        position: relative;
+        right: 30px;
+        width: 250px;
+    }
+    .id{
+        position: relative;
+        right: 30px;
+        width: 250px;
+        margin-left: 50px;
+    }
+    .node_submit{
+        border: 1px solid black;
+        margin-left: 50px;
+    }
+    .all_texts{
+        display: block;
+    }
+    input[type="text"]{
+        padding: 10px;
+    }
+    
+}
+@media screen and (min-width:1400px) and (max-width:1900px){
+   .node_head_top{
+       margin-left: 160px !important;
+   }
+    
+}
+
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .node_ope{
+        position: relative;
+        left: 250px;
+        margin-top: 50px;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    .join_us_now{
+        margin: auto;
+        position: relative;
+        left: 250px;
+        width: 1300px !important;
+    }
+    .all_subs{
+        position: relative;
+        left: 250px;
+        width: 1300px !important;
+    }
+    .node_main_div{
+        position: relative;
+        right: 250px;
+        width: 1300px !important;
+    }
+    .node_head_top{
+        position: relative;
+        right: 50px;
+    }
+}
+

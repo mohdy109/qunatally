@@ -1,0 +1,153 @@
+.use_it {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #383838;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+/* .carousel-control-next{
+    border: 10px solid black;
+    color: black;
+} */
+
+.alien {
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+.use_imgs_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.how_works_imgss {
+  width: 1100px;
+  height: 229.13px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.home_img {
+  width: 500px !important;
+  object-fit: contain;
+  margin-bottom: 30px;
+  height: 50px;
+  margin-left: 30px;
+  /* margin-top: 20px; */
+  cursor: pointer;
+  margin-right: 60px;
+  height: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home_img:hover {
+  transform: scale(1.1);
+}
+
+.home_img:hover {
+  /* transform: scale(1.2); */
+  border: 0.916669px solid #ffffff;
+}
+
+.axs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 51px;
+}
+
+.cases_btn {
+  background: linear-gradient(
+    90deg,
+    #312cc2 1.7%,
+    #4d52e6 47.74%,
+    #5868fe 100%
+  );
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.how_works_enter {
+  width: 1100px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.frows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rums {
+  border: none;
+  /* margin-top: 50px;
+    margin-left: -10px; */
+}
+
+.main_use_cases {
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 420px) {
+  .usecase_div {
+    position: relative;
+    bottom: 70px;
+  }
+  .use_imgs_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_img {
+    width: 230px !important;
+    margin-left: 50px;
+    /* border: 10px solid black; */
+    height: 100px;
+  }
+  .bottom_use_case_flex {
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+  }
+  .alien {
+    margin-top: 80px !important;
+    position: relative;
+    right: 150px !important;
+  }
+  .rums{
+    position: relative;
+    right: 10px;
+  }
+}
+
+
+@media screen and (min-width:600px) and (max-width:768px){
+  .rums{
+    position: relative;
+    right: 30px;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1024px){
+  .use_imgs_div{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .rums{
+    position: relative;
+    right: 40px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .home_img {
+    width: 400px !important;
+  }
+}

@@ -1,0 +1,372 @@
+body{
+    overflow-x: hidden;
+}
+.token_pre_divs{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.token_pre_div{
+    background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+    border-radius: 130px 0px 0px 130px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.token_images{
+    position: relative;
+    right: 130px;
+    width: 400px;
+
+}
+
+.token_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.token_sale_para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #1B1B1B;
+}
+
+.token_percentage{
+    width: 250px;
+}
+
+.token_all{
+    margin-right: 40px;
+}
+
+.bottom_tokens{
+    background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 600px !important;
+}
+
+.bottom_tokens{
+    display: flex;
+}
+
+.buyss{
+    width: 400px;
+}
+.first_buys{
+    position: relative;
+    right: 180px;
+}
+.second_buys{
+    position: relative;
+    right: 60px;
+}
+
+.bottom_flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lefti_token{
+    position: relative;
+    left: -220px;
+}
+
+.head_buy{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1610A7;
+    position: relative;
+    right: 200px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 360px) {
+    .token_res_div{
+        position: relative;
+        bottom: 400px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .token_pre_div{
+        background: none;
+    }
+    .token_images{
+        position: relative;
+        right: 180px;
+        height: 250px;
+        position: relative;
+        bottom: 80px;
+        left: -110px;
+    }
+    .token_pre_divs{
+        background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+        padding: 10px;
+        position: relative;
+        bottom: 70px;
+    }
+    .bottom_tokens{
+        display: block;
+        background: none;
+        position: relative;
+        bottom: 100px;
+    }
+    .first_buys{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .head_buy{
+        font-size: 12px;
+    }
+    .bottom_flex{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width:361px) and (max-width:420px){
+    .token_res_div{
+        position: relative;
+        bottom: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .token_pre_div{
+        background: none;
+    }
+    .token_images{
+        position: relative;
+        right: 180px;
+        height: 250px;
+        position: relative;
+        bottom: 80px;
+        left: -110px;
+    }
+    .token_pre_divs{
+        background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+        padding: 10px;
+        position: relative;
+        bottom: 70px;
+    }
+    .bottom_tokens{
+        display: block;
+        background: none;
+        position: relative;
+        bottom: 100px;
+    }
+    .first_buys{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .head_buy{
+        font-size: 12px;
+    }
+    .bottom_flex{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:768px){
+    .token_res_div{
+        position: relative;
+        bottom: 400px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .token_pre_div{
+        background: none;
+        margin-top: 90px;
+        margin-left: 400px;
+    }
+    .token_images{
+        position: relative;
+        right: 180px;
+        height: 250px;
+        position: relative;
+        bottom: 80px;
+        left: -110px;
+    }
+    .token_pre_divs{
+        background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+        padding: 10px;
+        position: relative;
+        bottom: 70px;
+        margin-left: 250px;
+        margin-top: 80px;
+    }
+    .bottom_tokens{
+        display: block;
+        background: none;
+        position: relative;
+        bottom: 100px;
+        margin-left: 330px;
+        margin-top: 380px !important;
+    }
+    .first_buys{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .head_buy{
+        font-size: 12px;
+    }
+    .bottom_flex{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .token_images{
+        width: 350px !important;
+        height: 300px !important;
+        margin-top: 80px !important;
+        object-fit: contain;
+    }
+
+    .token_pre_divs{
+        width: 350px !important;
+    }
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .token_res_div{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+    
+    .token_pre_divs{
+        justify-content: flex-end;
+    }
+    .token_main_div{
+        display: flex;
+
+    }
+    .token_images{
+        width: 320px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:540px){
+    .token_images{
+        position: relative;
+        left: -80px !important;
+    }
+    .token_pre_div{
+        background: none;
+    }
+    .token_pre_divs{
+        position: relative;
+        left: 90px !important;
+        margin-top: 90px;
+    }
+    .bottom_tokens{
+        display: block !important;
+        background: none;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    .bottom_tokens{
+        display: block;
+    }
+    .token_main_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .token_images{
+        background: none !important;
+        height: 300px !important;
+        width: 500px !important;
+       
+    }
+
+    .token_pre_div{
+        position: relative;
+        right: 100px;
+    }
+    .token_pre_divs{
+        width: 300px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px !important;   
+       position: relative;
+       right: 100px;
+    }
+    .bottom_tokens{
+        margin-top: 340px;
+        background: none;
+    }
+    
+}
+
+@media screen and (min-width:1400px) and (max-width:1700px) {
+    .token_main_div{
+        width: 90%;
+        margin: auto;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .bottom_tokens{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 180px;
+    }
+}
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .token_main_div{
+        width: 90%;
+        margin: auto;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .bottom_tokens{
+        width: 90%;
+        margin: auto;
+        margin-top: 150px;
+        margin-left: 350px;
+    }
+    .token_res_div{
+        position: relative;
+        right: 50px;
+    }
+}
+
+
+@media screen and (min-width:2001px) and (max-width:2400px){
+    .token_main_div{
+        width: 80%;
+        margin: auto;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .bottom_tokens{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+}

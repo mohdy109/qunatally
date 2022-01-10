@@ -1,0 +1,240 @@
+.L {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #433ED1;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .y {
+    width: 95% !important;
+    position: relative;
+    right: 80px;
+  }
+  .f {
+    width: 60%;
+    line-height: 250%;
+  }
+  .flex {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -10%;
+  }
+  .smart {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    right: 100px;
+  }
+
+  .content_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    color: #383838;
+    position: relative;
+    right: 34px;
+    width: 80% !important;
+    text-align: justify;
+  }
+  
+  .head_use{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #433ED1;
+    margin-left: 30px;
+  }
+  @media (max-width: 425px) {
+    .flex {
+      flex-direction: column-reverse;
+    }
+    .smart {
+      margin-left: 20%;
+      width: 58%;
+      margin-top: 30px;
+      position: relative;
+      left: 20px;
+    }
+    .f {
+      width: 91%;
+      line-height: 193%;
+      margin-top: 6%;
+      font-size: 14px;
+    }
+    .L{
+      font-size: 14px;
+      position: relative;
+      right: 25px;
+    }
+    .back_arrow{
+      width: 30px;
+    }
+
+    .y{
+      /* width: 340px !important; */
+      height: 70.22px;
+      margin-left: 160px !important;
+    }
+    .res_divs{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .res_div_usecases{
+      position: relative;
+      bottom: 10px;
+    }
+    .content_text{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      color: #383838;
+      margin-top: 20px;
+      position: relative;
+      right: 10px !important;
+      width: 95% !important;
+    }
+    .head_use{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #433ED1;
+      position: relative;
+      right: 20px;
+      margin-top: 7px;
+    }
+  }
+  
+
+@media screen and (min-width:500px) and (max-width:540px){
+  .L{
+    position: relative;
+    right: 25px;
+  }
+  .smart {
+    margin-left: 10%;
+    width: 170px;
+    margin-top: 30px;
+    position: relative;
+    left: -300px;
+    bottom: 450px;
+  }
+  .content_text{
+   position: relative;
+   top: 250px;
+   width: 440px !important; 
+   margin: auto;
+   right: 10px;
+   height: 1100px;
+  }
+  .img1{
+    margin-left: 100px !important;
+    width: 98%;
+  }
+}
+
+  @media screen and (min-width:600px) and (max-width:768px){
+    
+    .smart{
+      position: relative;
+      bottom: 390px;
+      width: 300px;
+      left: -450px;
+    }
+    .content_text{
+      position: relative;
+      top: 330px;
+      width: 650px !important;
+      height: 1100px;
+    }
+    .img1{
+      width: 99%;
+    }
+    .L{
+      position: relative;
+      right: 37px;
+    }
+  }
+  @media screen and (min-width:769px) and (max-width:1024px){
+    
+    .smart{
+      position: relative;
+      bottom: 200px;
+      width: 300px;
+      left: -550px;
+    }
+    .content_text{
+      position: relative;
+      top: 330px;
+      width: 950px !important;
+      height: 800px;
+      font-family: Poppins;
+      font-weight: bold;
+      top: 390px;
+    }
+    .img1{
+      width: 95%;
+    }
+    .L{
+      position: relative;
+      top: 30px;
+    }
+    .y{
+      margin-top: 50px;
+      margin-left: 120px !important;
+      object-fit: contain;
+    }
+  }
+
+  @media screen and (min-width:1100px) and (max-width:1280px){
+    .content_text{
+      width: 100% !important;
+    }
+    .smart{
+      margin-left: 100px;
+    }
+  }
+
+  @media screen and (min-width:1400px) and (max-width:1900px){
+    .head_use{
+      /* margin-left: 80px; */
+    }
+    .img1{
+      margin-left: 120px;
+      position: relative;
+      left: -60px;
+      width: 1300px !important;
+    }
+    .content_text{
+      position: relative;
+      left: -20px;
+      width: 90%;
+    }
+    .smart{
+      width: 100%;
+      margin-right: 100px;
+    }
+    .L{
+      margin-left: 100px;
+    }
+    .back_arrow{
+
+    }
+  }

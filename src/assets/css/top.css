@@ -1,0 +1,208 @@
+.top_head{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top_left{
+    width: 490.77px;
+    height: 171px;
+}
+.top_heading{
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #383838;
+    /* text-align: justify; */
+}
+
+.coloured{
+    color: rgba(40, 34, 192, 1);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 57px;
+    text-transform: capitalize;
+}
+
+.top_button{
+    display: flex;
+    margin-top: 30px;
+}
+
+.first_button{
+    width: 234px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(186, 192, 255, 0.57);
+    border-radius: 1px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #433ED1;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.second_button{
+    width: 186px;
+    height: 46px;
+    background: linear-gradient(90deg, #322DC3 0%, #5968FE 100%);
+    box-shadow: 0px 2px 8px rgba(186, 192, 255, 0.57);
+    border-radius: 1px;
+    outline: none;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.animation_top{
+    width: 577.26px ;
+    height: 375.7px;
+    background: #EEEFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation_head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #433ED1;
+}
+
+@media screen  and (max-width : 425px){
+    .app{
+        width: 100%;
+        margin: auto;
+    }
+
+    .top_head{
+        position: relative;
+        bottom: 40px;
+    }
+    .top_heading{
+        width: 292px;
+        height: 81px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: #383838;
+    }
+
+    .coloured{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .top_button{
+        margin-top: 50px;
+    }
+    .first_button{
+        width: 172.3px;
+        height: 33.87px;
+        font-size: 10px;
+    }
+    .second_button{
+        width: 116.96px;
+        height: 33.87px;
+        font-size: 10px;
+        position: relative;
+        right: 30px;
+    }
+    .animation_top{
+        width: 90% !important;
+        height: 226px;
+        margin-top: 20px !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 934px){
+    .animation_top{
+        margin-top: 150px ;
+        width: 300px !important;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1210px){
+    .animation_top{
+        width: 330px !important;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:540px){
+    .animation_top{
+        margin-top: 250px;
+        width: 500px !important;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:768px){
+   .top_right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+   }
+   .animation_top{
+       width: 600px !important;
+       margin-top: 190px;
+   }
+}
+
+@media screen and (min-width:1400px) and (max-width:2000px){
+    .top_left{
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .top_head{
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+       
+    }
+}
+
+@media screen and (min-width:2001px) and (max-width:2400px){
+    .top_head{
+        width: 70%;
+        margin: auto;
+        margin-top: 80px;
+       
+    }
+}
