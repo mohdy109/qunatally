@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+=======
+.container {
+  text-align: center;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 42%;
+  /* margin-left: 28%; */
+  margin-top: 11%;
+}
+
+.cards {
+  background: #ffffff;
+  box-shadow: 0px 5px 12px rgba(164, 172, 252, 0.55);
+  border-radius: 3.24649px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  height: 100%;
+  width: 82%;
+  transition: all 0.3s ease-in-out;
+}
+.cards:hover {
+  transform: scale(1.1);
+}
+.col {
+  padding-top: 4%;
+}
+
+>>>>>>> dbdd570... last commit
 .img1 {
   width: 80%;
   margin-left: 10%;
@@ -13,7 +45,11 @@
 }
 
 .how h1 {
+<<<<<<< HEAD
   font-family: Poppins;
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -24,9 +60,15 @@
 }
 
 .how h2 {
+<<<<<<< HEAD
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
+=======
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+>>>>>>> dbdd570... last commit
   font-size: 15px;
   line-height: 34px;
   /* or 189% */
@@ -34,7 +76,11 @@
   color: #383838;
 }
 .how h3 {
+<<<<<<< HEAD
   font-family: Poppins;
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -45,7 +91,11 @@
 }
 
 .how h4 {
+<<<<<<< HEAD
   font-family: Poppins;
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -72,7 +122,11 @@
   margin-top: 7%;
   margin-left: 15%;
   font-style: normal;
+<<<<<<< HEAD
   font-family: poppins;
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
 }
 .contents {
   width: 75%;
@@ -95,11 +149,20 @@
   background: #ffffff;
   box-shadow: 0px 3px 7px rgba(186, 192, 255, 0.55);
   align-items: center;
+<<<<<<< HEAD
+=======
+  text-shadow: 0px 1px, 1px 1px, 1px 0px;
+  /*font-weight: 900;*/
+>>>>>>> dbdd570... last commit
 
   border-radius: 3.67px;
 }
 .button > h4 {
+<<<<<<< HEAD
   font-family: poppins;
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
 }
 .button > img {
   width: 30px;
@@ -108,7 +171,11 @@
   justify-content: center;
 }
 .ledgers {
+<<<<<<< HEAD
   font-family: Poppins;
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -123,6 +190,14 @@
 }
 
 @media (max-width: 425px) {
+<<<<<<< HEAD
+=======
+  .col {
+    padding: 10%;
+    margin-left: 3%;
+  }
+
+>>>>>>> dbdd570... last commit
   .first {
     position: relative;
     width: 3.5%;

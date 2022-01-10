@@ -9,6 +9,16 @@
     align-items: center;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
+=======
+.inner_comm_res{
+    transition: all 0.3s ease-in-out;
+
+}
+.inner_comm_res:hover{
+    transform: scale(1.1);
+}
+>>>>>>> dbdd570... last commit
 
 .join_our{
     margin-left: 20px;
@@ -103,12 +113,22 @@
     justify-content: center;
     flex-wrap: wrap;
     background: #FFFFFF;
+<<<<<<< HEAD
     border: 0.916669px solid #F0F0FF;
+=======
+>>>>>>> dbdd570... last commit
     margin-right: 20px;
     margin: auto;
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.inner_comm_res:hover{
+     border: 0.916669px solid #F0F0FF;
+}
+
+>>>>>>> dbdd570... last commit
 
 @media(max-width:420px){
     .inner_comm_res{
@@ -124,6 +144,12 @@
         position: relative;
         right: 15px;
     }
+<<<<<<< HEAD
+=======
+    .inner_comm_res:hover{
+        transform: none;
+    }
+>>>>>>> dbdd570... last commit
     .join_our{
         text-align: center;
         position: relative;
@@ -157,7 +183,38 @@
     }
     .res_comm{
         position: relative;
+<<<<<<< HEAD
         bottom: 800px;
     }
 }
 
+=======
+        bottom: 450px;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1700px){
+    .inner_community{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .inner_community{
+        width: 80%;
+        margin: auto;
+    }
+    .comm_block{
+        position: relative;
+        right: 50px;
+    }
+}
+
+@media screen and (min-width:2001px) and (max-width:2400px){
+    .inner_community{
+        width: 80%;
+        margin: auto;
+    }
+}
+>>>>>>> dbdd570... last commit

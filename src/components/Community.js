@@ -15,7 +15,11 @@ import "../assets/css/community.css"
 const Community = () => {
     return (
         <div className='res_comm'>
+<<<<<<< HEAD
             <div className='two_box_all_div'>
+=======
+            <div className='two_box_all_div comm_block'>
+>>>>>>> dbdd570... last commit
                 <div>
                     <img src={first} alt = "first_box" className='first_box' /> 
                 </div>

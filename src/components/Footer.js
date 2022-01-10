@@ -20,7 +20,11 @@ export default function Footer() {
             <img className="icon" src={Quantallylogo}/>
             </div>
             <div className="use4">
+<<<<<<< HEAD
                 <a className="y">network</a>
+=======
+                <a className="yes">network</a>
+>>>>>>> dbdd570... last commit
                 <a>Token services</a>
                 <a>Consensus Service</a>
                 <a>How it Works</a>
@@ -32,6 +36,7 @@ export default function Footer() {
 
   
 <div className="use">
+<<<<<<< HEAD
                 <a className="y">Use Cases</a>
                 <a >case studies</a>
                 <a>payments</a>
@@ -42,12 +47,28 @@ export default function Footer() {
                 <a >permissioned bloackchain</a>
                 <a >enterprize</a>
                 <a >heath care</a>
+=======
+                <a className="yes">Use Cases</a>
+                <a>case studies</a>
+                <a>payments</a>
+                <a>tokenised assets</a>
+                <a>fraud mitigation</a>
+                <a>identity</a>
+                <a>data compilance</a>
+                <a>permissioned bloackchain</a>
+                <a>enterprize</a>
+                <a>heath care</a>
+>>>>>>> dbdd570... last commit
                 <a>gaming</a>
 
 
 </div>
 <div className="use1">
+<<<<<<< HEAD
                 <a className="y">About</a>
+=======
+                <a className="yes">About</a>
+>>>>>>> dbdd570... last commit
                 <a >Team</a>
                 <a>Partners</a>
                 <a >Journey</a>
@@ -60,7 +81,11 @@ export default function Footer() {
 
 </div>
 <div className="use2">
+<<<<<<< HEAD
                 <a className="y">Media</a>
+=======
+                <a className="yes">Media</a>
+>>>>>>> dbdd570... last commit
                 <a >Press</a>
                 <a>News</a>
                 <a >Blog</a>
@@ -70,7 +95,11 @@ export default function Footer() {
             
 </div>
 <div className="use3">
+<<<<<<< HEAD
                 <a className="y">Other</a>
+=======
+                <a className="yes">Other</a>
+>>>>>>> dbdd570... last commit
                 <a >Blog</a>
                 <a>Podcast</a>
                 <a >Events</a>
@@ -83,8 +112,12 @@ export default function Footer() {
                 <a >Pr</a>
                 
         </div>
+<<<<<<< HEAD
         <p className="para">  © 2018-2021 Hedera Hashgraph, LLC. All trademarks and company names are the property of their respective owners. All rights in the Deutsche Telekom mark are protected by Deutsche Telekom AG. All rights reserved. Hedera uses the third party marks with permission.
 Typography
+=======
+        <p className="para">  2021-2022 Quantally, LLC. All trademarks and company names are the property of their respective owners.
+>>>>>>> dbdd570... last commit
 </p>
             <div className='social_logos'>
             <div className="facebook">

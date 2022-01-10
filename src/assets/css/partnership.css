@@ -8,6 +8,19 @@
     margin: auto;
     margin-top: 50px;
 }
+<<<<<<< HEAD
+=======
+.part_imgs{
+    margin-top: 47px;
+    transition: all 0.3s ease-in-out;
+}
+
+.part_img:hover{
+    transform: scale(1.2);
+    border: 0.916669px solid #F0F0FF;
+    object-fit: contain;
+}
+>>>>>>> dbdd570... last commit
 
 .second_res{
     position: relative;
@@ -48,10 +61,31 @@
     }
     .res_partnership_image{
         position: relative;
+<<<<<<< HEAD
         bottom: 800px;
+=======
+        bottom: 500px;
+>>>>>>> dbdd570... last commit
     }
     .part_news{
         width: 250px;
         height: 100px;
     }
+<<<<<<< HEAD
+=======
+    .part_img:hover{
+        transition: none;
+        border: none;
+    }
+    .part_news{
+        width: 100px;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1900px){
+ .res_partnership_image{
+     position: relative;
+     right: 50px;
+ }   
+>>>>>>> dbdd570... last commit
 }

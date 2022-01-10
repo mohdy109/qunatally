@@ -24,6 +24,10 @@ body{
 .token_main_div{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+    margin-top: 50px;
+>>>>>>> dbdd570... last commit
 }
 
 .token_sale_para{
@@ -47,6 +51,10 @@ body{
     background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
     margin-top: 40px;
     margin-left: 150px;
+<<<<<<< HEAD
+=======
+    width: 600px !important;
+>>>>>>> dbdd570... last commit
 }
 
 .bottom_tokens{
@@ -71,6 +79,14 @@ body{
     justify-content: flex-start;
 }
 
+<<<<<<< HEAD
+=======
+.lefti_token{
+    position: relative;
+    left: -220px;
+}
+
+>>>>>>> dbdd570... last commit
 .head_buy{
     font-family: Poppins;
     font-style: normal;
@@ -81,9 +97,16 @@ body{
     position: relative;
     right: 200px;
     width: 200px;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 420px) {
+=======
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 360px) {
+>>>>>>> dbdd570... last commit
     .token_res_div{
         position: relative;
         bottom: 400px;
@@ -128,12 +151,115 @@ body{
 }
 
 
+<<<<<<< HEAD
 @media screen and (max-width:1024px) {
     .token_images{
         width: 300px !important;
         height: 300px !important;
         margin-top: 80px !important;
         
+=======
+@media screen and (min-width:361px) and (max-width:420px){
+    .token_res_div{
+        position: relative;
+        bottom: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .token_pre_div{
+        background: none;
+    }
+    .token_images{
+        position: relative;
+        right: 180px;
+        height: 250px;
+        position: relative;
+        bottom: 80px;
+        left: -110px;
+    }
+    .token_pre_divs{
+        background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+        padding: 10px;
+        position: relative;
+        bottom: 70px;
+    }
+    .bottom_tokens{
+        display: block;
+        background: none;
+        position: relative;
+        bottom: 100px;
+    }
+    .first_buys{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .head_buy{
+        font-size: 12px;
+    }
+    .bottom_flex{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:768px){
+    .token_res_div{
+        position: relative;
+        bottom: 400px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .token_pre_div{
+        background: none;
+        margin-top: 90px;
+        margin-left: 400px;
+    }
+    .token_images{
+        position: relative;
+        right: 180px;
+        height: 250px;
+        position: relative;
+        bottom: 80px;
+        left: -110px;
+    }
+    .token_pre_divs{
+        background: linear-gradient(90deg, #F6F7FF 24.87%, rgba(238, 239, 255, 0) 100%);
+        padding: 10px;
+        position: relative;
+        bottom: 70px;
+        margin-left: 250px;
+        margin-top: 80px;
+    }
+    .bottom_tokens{
+        display: block;
+        background: none;
+        position: relative;
+        bottom: 100px;
+        margin-left: 330px;
+        margin-top: 380px !important;
+    }
+    .first_buys{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .head_buy{
+        font-size: 12px;
+    }
+    .bottom_flex{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .token_images{
+        width: 350px !important;
+        height: 300px !important;
+        margin-top: 80px !important;
+        object-fit: contain;
+>>>>>>> dbdd570... last commit
     }
 
     .token_pre_divs{
@@ -164,7 +290,30 @@ body{
     }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width:500px) and (max-width:768px){
+=======
+@media screen and (min-width:500px) and (max-width:540px){
+    .token_images{
+        position: relative;
+        left: -80px !important;
+    }
+    .token_pre_div{
+        background: none;
+    }
+    .token_pre_divs{
+        position: relative;
+        left: 90px !important;
+        margin-top: 90px;
+    }
+    .bottom_tokens{
+        display: block !important;
+        background: none;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+>>>>>>> dbdd570... last commit
     .bottom_tokens{
         display: block;
     }
@@ -174,9 +323,21 @@ body{
         align-items: center;
     }
     .token_images{
+<<<<<<< HEAD
         background: none;
         height: 300px !important;
         width: 500px !important;
+=======
+        background: none !important;
+        height: 300px !important;
+        width: 500px !important;
+       
+    }
+
+    .token_pre_div{
+        position: relative;
+        right: 100px;
+>>>>>>> dbdd570... last commit
     }
     .token_pre_divs{
         width: 300px !important;
@@ -184,10 +345,69 @@ body{
         justify-content: center;
         align-items: center;
         height: 100px !important;   
+<<<<<<< HEAD
+=======
+       position: relative;
+       right: 100px;
+>>>>>>> dbdd570... last commit
     }
     .bottom_tokens{
         margin-top: 340px;
         background: none;
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+
+@media screen and (min-width:1400px) and (max-width:1700px) {
+    .token_main_div{
+        width: 90%;
+        margin: auto;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .bottom_tokens{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 180px;
+    }
+}
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .token_main_div{
+        width: 90%;
+        margin: auto;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .bottom_tokens{
+        width: 90%;
+        margin: auto;
+        margin-top: 150px;
+        margin-left: 350px;
+    }
+    .token_res_div{
+        position: relative;
+        right: 50px;
+    }
+}
+
+
+@media screen and (min-width:2001px) and (max-width:2400px){
+    .token_main_div{
+        width: 80%;
+        margin: auto;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .bottom_tokens{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+}
+>>>>>>> dbdd570... last commit

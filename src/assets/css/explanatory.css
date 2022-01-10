@@ -45,4 +45,15 @@
     .explanatory{
         width: 900px;
     }
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (min-width:1400px) and (max-width:1900px){
+    .explanatory{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+>>>>>>> dbdd570... last commit
 }

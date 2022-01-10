@@ -4,8 +4,15 @@ import second from "../assets/images/second.png"
 import "../assets/css/node.css"
 const Node = () => {
     return (
+<<<<<<< HEAD
         <div className='node_main_div'>
              <div className='two_box_all_div'>
+=======
+        <div style = {{display:"flex",justifyContent:"center",alignItems:"center"}}>
+
+        <div className='node_main_div'>
+             <div className='two_box_all_div node_head_top'>
+>>>>>>> dbdd570... last commit
                 <div>
                     <img src={first} alt = "first_box" className='first_box' /> 
                 </div>
@@ -13,7 +20,11 @@ const Node = () => {
                     <img src={second} alt = "first_box" className='second_box' /> 
                 </div>
                 <div>
+<<<<<<< HEAD
                     <h1 className='topic_head'>Wanna Become A  <span className='colors'> Node Operator </span></h1>
+=======
+                    <h1 className='topic_head '>Wanna Become A  <span className='colors'> Node Operator </span></h1>
+>>>>>>> dbdd570... last commit
                 </div>
             </div>  
             <div className='node_ope'>
@@ -30,6 +41,10 @@ const Node = () => {
                </div>
             </div>
         </div>
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> dbdd570... last commit
     )
 }
 

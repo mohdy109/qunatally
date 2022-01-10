@@ -36,28 +36,44 @@ const Team = () => {
                     <h1 className='team_mem_name'>Ketty Jones</h1>
                     <h1 className='team_mem_occ'>Managing Partner, Quantally</h1>
                 </div>
+<<<<<<< HEAD
                 <div className='third_member'>
+=======
+                <div className='third_member res_third_member'>
+>>>>>>> dbdd570... last commit
                 <div style={{display:"flex", justifyContent:"center",alignItems:"center"}}>
                     <img src={thirdmem} className = "sec_mem" />
                 </div>
                     <h1 className='team_mem_name'>Nathon Tenner</h1>
                     <h1 className='team_mem_occ'>COO, Quantally</h1>
                 </div>
+<<<<<<< HEAD
                 <div className='four_member'>
+=======
+                <div className='four_member res_fourth_member'>
+>>>>>>> dbdd570... last commit
                 <div style={{display:"flex", justifyContent:"center",alignItems:"center"}}>
                     <img src={fourmem} className = "sec_mem" />
                 </div>
                     <h1 className='team_mem_name res_name'>Michale Clarke</h1>
                     <h1 className='team_mem_occ'>CEO, Quantally</h1>
                 </div>
+<<<<<<< HEAD
                 <div className='four_member'>
+=======
+                <div className='four_member fkch'>
+>>>>>>> dbdd570... last commit
                 <div style={{display:"flex", justifyContent:"center",alignItems:"center"}}>
                     <img src={fivemem} className = "sec_mem" />
                 </div>
                     <h1 className='team_mem_name res_names'>Ketty Jones</h1>
                     <h1 className='team_mem_occ'>Managing Partner, Quantally</h1>
                 </div>
+<<<<<<< HEAD
                 <div className='four_member'>
+=======
+                <div className='four_member fkch'>
+>>>>>>> dbdd570... last commit
                 <div style={{display:"flex", justifyContent:"center",alignItems:"center"}}>
                     <img src={sixmem} className = "sec_mem" />
                 </div>

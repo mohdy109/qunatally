@@ -5,7 +5,11 @@ import "../assets/css/future.css"
 const Future = () => {
     return (
         <div className='future_wrap_div'>
+<<<<<<< HEAD
             <div className='two_box_all_div'>
+=======
+            <div className='two_box_all_div core_div'>
+>>>>>>> dbdd570... last commit
                 <div>
                     <img src={first} alt = "first_box" className='first_box' /> 
                 </div>

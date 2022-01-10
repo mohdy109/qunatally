@@ -6,7 +6,11 @@ import publicLedger from "../assets/images/ledgerTable.svg"
 const PublicLedger = () => {
     return (
         <div className='ledger_main'>
+<<<<<<< HEAD
             <div className='two_box_all_div'>
+=======
+            <div className='two_box_all_div core_div'>
+>>>>>>> dbdd570... last commit
                 <div>
                     <img src={first} alt = "first_box" className='first_box' /> 
                 </div>

@@ -1,7 +1,11 @@
 import React from 'react'
 import first from "../assets/images/first.png"
 import second from "../assets/images/second.png"
+<<<<<<< HEAD
 import yahoo from "../assets/images/news1.png"
+=======
+import yahoo from "../assets/images/Flinders.svg"
+>>>>>>> dbdd570... last commit
 import "../assets/css/partnership.css"
 const Partnership = () => {
     return (

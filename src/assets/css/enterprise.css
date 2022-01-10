@@ -1,4 +1,8 @@
 .hexa_divs{
+<<<<<<< HEAD
+=======
+    margin-top: 20px;
+>>>>>>> dbdd570... last commit
 }
 .enterprise_main_image{
     position: relative;
@@ -15,6 +19,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 45px;
+<<<<<<< HEAD
     /* or 250% */
     
         margin-top: 30px;
@@ -23,6 +28,30 @@
 @media screen and (max-width: 420px){
     .image_para{
         margin-left: 10px;
+=======
+    margin-left:50px;
+ margin-top: 30px;
+    color: #383838;
+}
+.core_networks{
+    margin-top: 120px !important;
+}
+.payment_coress{
+    margin-top: 120px !important;
+}
+.five_resxs{
+    margin-top: 120px !important;
+}
+.res_last_pages{
+    margin-top: 120px !important;
+}
+@media screen and (max-width: 420px){
+    .image_para{
+        margin-left: 10px;
+        padding: 10px;
+        text-align: justify;
+        font-weight: 600;
+>>>>>>> dbdd570... last commit
     }
     .enterprise_main_image{
         width: 260px;
@@ -38,33 +67,65 @@
         top: 0;
         left: 0;
     }
+<<<<<<< HEAD
     
+=======
+    .final_res_head{
+        position: relative;
+        top: 10px;
+    }
+    .final_res_heads{
+        position: relative;
+        top: -45px;
+    }
+>>>>>>> dbdd570... last commit
     .enter_sec_imsg{
         width: 70px !important;
         margin-left: 40px !important;
     }
     .core_networks{
         position: relative;
+<<<<<<< HEAD
         bottom: 200px;
     }
     .payment_coress{
         position: relative;
         bottom: 220px !important;
+=======
+        /* bottom: 200px; */
+    }
+    .payment_coress{
+        position: relative;
+        top: -290px;
+>>>>>>> dbdd570... last commit
     }
 
     .five_resxs{
         position: relative;
+<<<<<<< HEAD
         bottom: 170px !important;
+=======
+        top: -400px;
+    }
+    .final_reli{
+        position: relative;
+        top: -40px;
+>>>>>>> dbdd570... last commit
     }
 
     .res_last_pages{
         position: relative;
+<<<<<<< HEAD
         bottom: 180px;
+=======
+        top: -470px;
+>>>>>>> dbdd570... last commit
     }
     .enter_sec_imsgs{
         position: relative;
         bottom: 300px;
     }
+<<<<<<< HEAD
 } 
 
 @media screen and (min-width:768px) and (max-width:1280px) {
@@ -76,3 +137,193 @@
         width: 1100px;
     }
 }
+=======
+    
+    .krakx{
+        position:relative;
+        top: -340px;
+    }
+    .rles{
+        position:relative;
+        top: -360px;
+    }
+    .final_core_para{
+        position: relative;
+        top: 30px;
+    }
+    .final_centr{
+        position: relative;
+        top: 30px;
+    }
+} 
+
+@media screen and (min-width:500px) and (max-width:540px) {
+    .image_para{
+        position: relative;
+        right: 30px;
+        text-align: justify;
+    }
+    .fint_res_para_final{
+        position: relative;
+        top: -100px;
+        left: 130px;
+    }
+    .final_res_head{
+        position: relative;
+        right: 40px;
+    }
+    .enter_sec_imsg{
+        position: relative;
+        top: -200px;
+        width: 100px;
+    }
+    .fint_res_para_finals{
+        position: relative;
+        left: 240px !important;
+        width: 300px;
+    }
+    .core_networks{
+        position: relative;
+        top: -150px;
+    }
+    .payment_coress{
+        position: relative;
+        top: -240px;
+    }
+    .five_resxs{
+        position: relative;
+        top: -200px;
+    }
+    .final_reli{
+        position: relative;
+        bottom: 70px;
+        left: 150px;
+        width: 300px;
+    }
+    .res_last_pages{
+        position: relative;
+        top: -350px;
+    }
+    .five_four{
+        position: relative;
+        left: 260px;
+        width: 200px;
+    }
+    .rles{
+        position: relative;
+        bottom: 300px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    
+    .image_para{
+        position: relative;
+        right: 30px;
+        text-align: justify;
+    }
+    .fint_res_para_final{
+        position: relative;
+        top: -160px;
+        left: 250px;
+    }
+    .final_res_head{
+        position: relative;
+        right: 40px;
+    }
+    .enter_sec_imsg{
+        position: relative;
+        top: -200px;
+        width: 100px;
+    }
+    .fint_res_para_finals{
+        position: relative;
+        left: 360px !important;
+        width: 300px;
+        top: 80px;
+    }
+    .res_core_para_fint{
+        position: relative;
+        top: 150px;
+    }
+    .core_networks{
+        position: relative;
+        top: -150px;
+    }
+    .payment_coress{
+        position: relative;
+        top: -240px;
+    }
+    .five_resxs{
+        position: relative;
+        top: -300px;
+    }
+    .final_reli{
+        position: relative;
+        bottom: 70px;
+        left: 280px;
+        width: 300px;
+    }
+    .res_last_pages{
+        position: relative;
+        top: -350px;
+    }
+    .five_four{
+        position: relative;
+        left: 390px;
+        width: 300px;
+        top: 90px;
+    }
+    .final_core_para{
+        position: relative;
+        top: 190px;
+    }
+    .rles{
+        position: relative;
+        bottom: 300px;
+    }
+    .final_centr{
+        position: relative;
+        top: 160px;
+    }
+    .decentra_mobiles{
+        position: relative;
+        left: -160px;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1883px) {
+    .image_para{
+        margin-left: 100px;
+        width: 1400px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    .core_networks{
+        position: relative;
+        bottom: 170px;
+    }
+    .payment_coress{
+        position: relative;
+        bottom: 370px;
+    }
+    .third_decen_mob{
+        position: relative;
+        left: 20px;
+    }
+    .five_resxs{
+        position: relative;
+        bottom: 270px;
+    }
+    .four_decen_mobs{
+        position: relative;
+        top: -30px;
+    }
+    .res_last_pages{
+        position: relative;
+        bottom: 500px;
+    }
+}
+
+>>>>>>> dbdd570... last commit

@@ -66,7 +66,11 @@ const Tokenomics = () => {
                  <div className='bottom_flex'>
                      <div>   <img src={Buy15} className='buyss first_buys' /></div>
                      <div>
+<<<<<<< HEAD
                          <h1 className='head_buy'>Buy: 15%</h1>
+=======
+                         <h1 className='head_buy lefti_token'>Buy: 15%</h1>
+>>>>>>> dbdd570... last commit
                          <h1 className='head_buy'>BUSD Reflections: 5%</h1>
                          <h1 className='head_buy'>Burn: 4% </h1>
                          <h1 className='head_buy'>Marketing & Dev: 3%</h1>
@@ -79,7 +83,11 @@ const Tokenomics = () => {
                         <div className='bottom_flex'>
                         <div>   <img src={Buy15} className='buyss first_buys' /></div>
                      <div>
+<<<<<<< HEAD
                          <h1 className='head_buy'>Buy: 15%</h1>
+=======
+                         <h1 className='head_buy lefti_token'>Sell: 15%</h1>
+>>>>>>> dbdd570... last commit
                          <h1 className='head_buy'>BUSD Reflections: 5%</h1>
                          <h1 className='head_buy'>Burn: 4% </h1>
                          <h1 className='head_buy'>Marketing & Dev: 3%</h1>

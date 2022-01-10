@@ -11,10 +11,18 @@
     height: 225px;
     font-family: Poppins;
     font-style: normal;
+<<<<<<< HEAD
     font-weight: normal;
     font-size: 18px;
     line-height: 45px;
     color: #383838;
+=======
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 45px;
+    color: #383838;
+    text-align: justify;
+>>>>>>> dbdd570... last commit
 }
 
 .future_illus{
@@ -38,7 +46,11 @@
     color: #433ED1;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 420px) {
+=======
+@media screen and (max-width: 360px) {
+>>>>>>> dbdd570... last commit
         .future_wrap_div{
             width: 100%;
             height: 100%;
@@ -53,6 +65,10 @@
             right: 20px;
             font-size: 15px;
             line-height: 37px;
+<<<<<<< HEAD
+=======
+            padding:10px
+>>>>>>> dbdd570... last commit
         }
         .future_illus{
             margin-top: 70px;
@@ -68,10 +84,45 @@
             left: 0;
         }
 }
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 361px) and (max-width:420px) {
+    .future_wrap_div{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+    .future_head{
+        width: 370px !important;
+        position: relative;
+        right: 20px;
+        font-size: 15px;
+        line-height: 37px;
+        padding:10px
+    }
+    .future_illus{
+        margin-top: 90px;
+        width: 300px !important;
+        height: 236.25px;
+    }
+    .future_wrap_div{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+}
+>>>>>>> dbdd570... last commit
 
 
 @media screen and (max-width:1024px){
         .future_illus{
+<<<<<<< HEAD
             width: 400px;
             margin-left: 20px;
         }
@@ -84,4 +135,98 @@
     .future_head{
         width: 90%;
     }
+=======
+            width: 900px;
+            /* margin-left: 30px; */
+        }
+        .future_head{
+            width: 900px;
+            font-weight: 600;
+        }
+        .future_main_div{
+            display: block;
+        }
+}
+
+@media screen and (min-width:500px) and (max-width:540px){
+    .future_illus{
+        margin-top: 100px !important;
+        text-align: center;
+
+    }
+    .future_head{
+        width: 430px;
+    }
+    .future_animation_head{
+        position: relative;
+        right: 200px;
+    }
+    
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    .future_head{
+        width: 90%;
+    }
+    .future_illus{
+        position: relative;
+        right: 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .future_illus{
+        margin-left: 20px !important;
+    }
+}
+
+
+@media screen and (min-width:1400px) and (max-width:1900px){
+    .future_main_div{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+    }
+    .future_illus{
+        width: 550px;
+    }   
+    .future_head{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .future_main_div{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+    }
+    .future_illus{
+        width: 550px;
+    }   
+    .future_head{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:2001px) and (max-width:2400px){
+    .future_main_div{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+    }
+    .future_illus{
+        width: 550px;
+    }   
+    .future_head{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+>>>>>>> dbdd570... last commit
 }

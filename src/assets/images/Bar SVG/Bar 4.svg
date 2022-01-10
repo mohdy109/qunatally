@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg width="293" height="11" viewBox="0 0 293 11" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect opacity="0.8" x="0.28125" y="0.554199" width="292.538" height="10.0875" rx="5.04377" fill="url(#paint0_linear_997_316)"/>
 <rect x="0.28125" y="0.554199" width="40.3501" height="10.0875" rx="5.04377" fill="#4C46E8"/>
@@ -8,3 +9,15 @@
 </linearGradient>
 </defs>
 </svg>
+=======
+<svg width="293" height="11" viewBox="0 0 293 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.8" x="0.28125" y="0.554199" width="292.538" height="10.0875" rx="5.04377" fill="url(#paint0_linear_997_316)"/>
+<rect x="0.28125" y="0.554199" width="40.3501" height="10.0875" rx="5.04377" fill="#4C46E8"/>
+<defs>
+<linearGradient id="paint0_linear_997_316" x1="146.55" y1="0.554199" x2="146.55" y2="10.6417" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E4E3FF"/>
+<stop offset="1" stop-color="#D0CEFC"/>
+</linearGradient>
+</defs>
+</svg>
+>>>>>>> dbdd570... last commit

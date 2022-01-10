@@ -26,10 +26,18 @@ import SmartPer from "../assets/images/use/Group 14653.svg"
 import SmartWea from "../assets/images/use/Group 15036.svg"
 import SmartMed from "../assets/images/use/Group 14654.svg"
 import SmartFood from "../assets/images/use/Group 143.svg"
+<<<<<<< HEAD
+=======
+import Smartbar from "../assets/images/alien.png"
+>>>>>>> dbdd570... last commit
 
 const UseCases = () => {
     return (
         <div className = "usecase_div">
+<<<<<<< HEAD
+=======
+           <img src={Smartbar}  className="img1 y enterprise_main_image alien" />
+>>>>>>> dbdd570... last commit
             <div className='two_box_all_div'>
                 <div>
                     <img src={first} alt = "first_box" className='first_box' /> 
@@ -41,6 +49,10 @@ const UseCases = () => {
                     <h1 className='topic_head'>Use Cases <span className='colors'> </span></h1>
                 </div>
             </div>
+<<<<<<< HEAD
+=======
+           
+>>>>>>> dbdd570... last commit
             <div className = "use_imgs_div">
               <div>
                 <a href='/home'><img src = {SmartHome} className = "home_img" /></a>

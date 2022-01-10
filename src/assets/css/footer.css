@@ -4,6 +4,10 @@
   height: 676px;
   left: 0px;
   /* top: 12754.42px !important; */
+<<<<<<< HEAD
+=======
+  font-family: "Poppins", sans-serif;
+>>>>>>> dbdd570... last commit
   margin-top: 50px;
   background: #0a0e30;
   box-shadow: 0px -2px 20px rgba(173, 181, 255, 0.17);
@@ -15,34 +19,60 @@
   top: 14.1%;
   bottom: 72.85%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbdd570... last commit
 .use {
   display: flex;
   color: white;
   font-style: none;
   font-weight: 600px;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 15px;
+>>>>>>> dbdd570... last commit
   line-height: 20px;
   /* identical to box height, or 100% */
   text-transform: capitalize;
   flex-direction: column;
   margin: 10cm;
   flex-wrap: wrap;
+<<<<<<< HEAD
   --gap: 0.5rem;
+=======
+  --gap: 1.1rem;
+>>>>>>> dbdd570... last commit
   position: absolute;
   left: 200px;
   top: -315px;
 }
+<<<<<<< HEAD
 .y {
   /* Use Cases */
 
   font-weight: 600;
   font-size: 18px;
 
+=======
+.yes {
+  /* Use Cases */
+
+  font-weight: 600;
+  font-size: 20px;
+
+  padding-bottom: 5%;
+>>>>>>> dbdd570... last commit
   /* identical to box height, or 111% */
   text-transform: capitalize;
   text-decoration: none;
   color: #ffffff;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbdd570... last commit
 .use > * {
   margin-bottom: var(--gap);
 }
@@ -51,14 +81,22 @@
   color: white;
   font-style: none;
   font-weight: 600px;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 15px;
+>>>>>>> dbdd570... last commit
   line-height: 20px;
   /* identical to box height, or 100% */
   text-transform: capitalize;
   flex-direction: column;
   margin: 10cm;
   flex-wrap: wrap;
+<<<<<<< HEAD
   --gap: 0.5rem;
+=======
+  --gap: 1.1rem;
+>>>>>>> dbdd570... last commit
   position: absolute;
   left: 500px;
   top: -315px;
@@ -73,14 +111,22 @@
   color: white;
   font-style: none;
   font-weight: 600px;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 15px;
+>>>>>>> dbdd570... last commit
   line-height: 20px;
   /* identical to box height, or 100% */
   text-transform: capitalize;
   flex-direction: column;
   margin: 10cm;
   flex-wrap: wrap;
+<<<<<<< HEAD
   --gap: 0.5rem;
+=======
+  --gap: 1.1rem;
+>>>>>>> dbdd570... last commit
   position: absolute;
   left: 640px;
   top: -315px;
@@ -95,14 +141,22 @@
   color: white;
   font-style: none;
   font-weight: 600px;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 15px;
+>>>>>>> dbdd570... last commit
   line-height: 20px;
   /* identical to box height, or 100% */
   text-transform: capitalize;
   flex-direction: column;
   margin: 10cm;
   flex-wrap: wrap;
+<<<<<<< HEAD
   --gap: 0.5rem;
+=======
+  --gap: 1.1rem;
+>>>>>>> dbdd570... last commit
   position: absolute;
   left: 780px;
   top: -315px;
@@ -117,14 +171,22 @@
   color: white;
   font-style: none;
   font-weight: 600px;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 15px;
+>>>>>>> dbdd570... last commit
   line-height: 20px;
   /* identical to box height, or 100% */
   text-transform: capitalize;
   flex-direction: column;
   margin: 10cm;
   flex-wrap: wrap;
+<<<<<<< HEAD
   --gap: 0.5rem;
+=======
+  --gap: 1.1rem;
+>>>>>>> dbdd570... last commit
   position: absolute;
   left: -10px;
   top: -315px;
@@ -182,7 +244,11 @@
 }
 .copyright {
   position: absolute;
+<<<<<<< HEAD
   width: 380px;
+=======
+  width: 399px;
+>>>>>>> dbdd570... last commit
   height: 25px;
   left: 510px;
   top: 640.5px;
@@ -204,7 +270,11 @@
     height: 1525px;
     left: 0px;
     width: 100%;
+<<<<<<< HEAD
     top: 1976%;
+=======
+    top: 1936%;
+>>>>>>> dbdd570... last commit
     background: #0a0e30;
     box-shadow: 0px -2px 19px rgba(173, 181, 255, 0.17);
 
@@ -212,8 +282,13 @@
     margin-top: 50px;
     overflow: hidden;
   }
+<<<<<<< HEAD
   .y {
     padding-top: 15%;
+=======
+  .yes {
+    padding-top: 1%;
+>>>>>>> dbdd570... last commit
   }
 
   .facebook {
@@ -240,19 +315,38 @@
     /* identical to box height, or 111% */
     text-transform: capitalize;
     color: white;
+<<<<<<< HEAD
   }
 
   .use > .y {
+=======
+    width: 300px;
+  }
+
+  .use a {
+    margin-top: 10px;
+  }
+
+  .use > .yes {
+>>>>>>> dbdd570... last commit
     padding-top: 3rem;
   }
   .use4 {
     left: -359px;
     top: -360px;
+<<<<<<< HEAD
+=======
+    width: 300px;
+>>>>>>> dbdd570... last commit
   }
 
   .use1 {
     top: -360px;
     left: -10rem;
+<<<<<<< HEAD
+=======
+    width: 300px;
+>>>>>>> dbdd570... last commit
   }
   .use2 {
     top: -1rem;
@@ -268,7 +362,11 @@
     width: 328.62px;
     height: 224px;
     left: 7%;
+<<<<<<< HEAD
     top: 69rem;
+=======
+    top: 77rem;
+>>>>>>> dbdd570... last commit
 
     font-family: Poppins;
     font-style: normal;
@@ -299,13 +397,18 @@
   }
   .icon {
     position: absolute;
+<<<<<<< HEAD
     top: 67%;
+=======
+    top: 75%;
+>>>>>>> dbdd570... last commit
     bottom: 83.49%;
     height: 73px;
     margin-left: 33%;
   }
 
   .footer a {
+<<<<<<< HEAD
     font-size: 21px;
   }
 }
@@ -313,5 +416,219 @@
 @media screen and (min-width: 798px) and (max-width: 1024px) {
   .footer {
     width: 1024px !important;
+=======
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    height: 1525px;
+    left: 0px;
+    width: 100%;
+    top: 1936%;
+    background: #0a0e30;
+    box-shadow: 0px -2px 19px rgba(173, 181, 255, 0.17);
+
+    margin: 0;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  .yes {
+    padding-top: 1%;
+  }
+  .card {
+    width: 110%;
+  }
+
+  .facebook {
+    display: flex;
+    position: absolute;
+    left: 3.5%;
+    top: 80%;
+    width: 20%;
+    padding: 9%;
+
+    bottom: 2%;
+  }
+
+  .use {
+    position: relative;
+
+    left: -230px;
+    top: 16rem;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    /* identical to box height, or 111% */
+    text-transform: capitalize;
+    color: white;
+    width: 300px;
+  }
+
+  .use a {
+    margin-top: 10px;
+  }
+
+  .use > .yes {
+    padding-top: 3rem;
+  }
+  .use4 {
+    left: -230px;
+    top: -360px;
+    width: 300px;
+  }
+
+  .use1 {
+    top: -360px;
+    left: 10rem;
+    width: 300px;
+  }
+  .use2 {
+    top: 1rem;
+    left: -230px;
+  }
+  .use3 {
+    top: 1rem;
+    left: 10rem;
+  }
+
+  .para {
+    position: absolute;
+    width: 328.62px;
+    height: 224px;
+    left: 29%;
+    top: 77rem;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .copyright {
+    position: absolute;
+    width: 298px;
+    height: 19px;
+    left: 36%;
+    top: 1461.44px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.204545px;
+
+    color: #ffffff;
+  }
+  .icon {
+    position: absolute;
+    top: 75%;
+    bottom: 83.49%;
+    height: 73px;
+    margin-left: 39%;
+  }
+
+  .footer a {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1700px) {
+  .icon {
+    margin-left: 100px;
+  }
+  .para {
+    margin-left: 100px;
+  }
+  .use4 {
+    margin-left: 600px;
+  }
+  .use {
+    margin-left: 650px;
+  }
+  .use1 {
+    margin-left: 680px;
+  }
+  .use2 {
+    margin-left: 730px;
+  }
+  .use3 {
+    margin-left: 780px;
+  }
+  .facebook {
+    margin-left: 100px;
+  }
+  .copyright {
+    margin-left: 190px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2000px) {
+  .icon {
+    margin-left: 100px;
+  }
+  .para {
+    margin-left: 130px;
+  }
+  .use4 {
+    margin-left: 600px;
+  }
+  .use {
+    margin-left: 650px;
+  }
+  .use1 {
+    margin-left: 680px;
+  }
+  .use2 {
+    margin-left: 730px;
+  }
+  .use3 {
+    margin-left: 780px;
+  }
+  .facebook {
+    margin-left: 100px;
+  }
+  .copyright {
+    margin-left: 190px;
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2400px) {
+  .icon {
+    margin-left: 200px;
+  }
+  .para {
+    margin-left: 230px;
+  }
+  .use4 {
+    margin-left: 900px;
+  }
+  .use {
+    margin-left: 950px;
+  }
+  .use1 {
+    margin-left: 980px;
+  }
+  .use2 {
+    margin-left: 1030px;
+  }
+  .use3 {
+    margin-left: 1080px;
+  }
+  .facebook {
+    margin-left: 400px;
+  }
+  .copyright {
+    margin-left: 690px;
+>>>>>>> dbdd570... last commit
   }
 }

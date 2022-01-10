@@ -12,12 +12,21 @@
 }
 .top_heading{
     font-family: Poppins;
+<<<<<<< HEAD
     font-style: normal;
     font-weight: 500;
+=======
+    font-style: bold;
+    font-weight: 600;
+>>>>>>> dbdd570... last commit
     font-size: 32px;
     line-height: 57px;
     text-transform: capitalize;
     color: #383838;
+<<<<<<< HEAD
+=======
+    /* text-align: justify; */
+>>>>>>> dbdd570... last commit
 }
 
 .coloured{
@@ -32,6 +41,10 @@
 
 .top_button{
     display: flex;
+<<<<<<< HEAD
+=======
+    margin-top: 30px;
+>>>>>>> dbdd570... last commit
 }
 
 .first_button{
@@ -73,7 +86,11 @@
 }
 
 .animation_top{
+<<<<<<< HEAD
     width: 577.26px;
+=======
+    width: 577.26px ;
+>>>>>>> dbdd570... last commit
     height: 375.7px;
     background: #EEEFFF;
     border-radius: 5px;
@@ -92,7 +109,11 @@
     color: #433ED1;
 }
 
+<<<<<<< HEAD
 @media screen  and (max-width : 411px){
+=======
+@media screen  and (max-width : 425px){
+>>>>>>> dbdd570... last commit
     .app{
         width: 100%;
         margin: auto;
@@ -137,26 +158,55 @@
         right: 30px;
     }
     .animation_top{
+<<<<<<< HEAD
         width: 330px !important;
         height: 226px;
         margin-top: 20px !important;
+=======
+        width: 90% !important;
+        height: 226px;
+        margin-top: 20px !important;
+        margin: auto;
+>>>>>>> dbdd570... last commit
     }
 }
 
 @media screen and (max-width: 934px){
     .animation_top{
         margin-top: 150px ;
+<<<<<<< HEAD
         width: 500px !important;
     }
 }
 
+=======
+        width: 300px !important;
+    }
+    
+}
+
+
+
+>>>>>>> dbdd570... last commit
 @media screen and (max-width: 1210px){
     .animation_top{
         width: 330px !important;
     }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width:500px) and (max-width:768px){
+=======
+@media screen and (min-width:480px) and (max-width:540px){
+    .animation_top{
+        margin-top: 250px;
+        width: 500px !important;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:768px){
+>>>>>>> dbdd570... last commit
    .top_right{
             display: flex;
             justify-content: center;
@@ -164,5 +214,35 @@
    }
    .animation_top{
        width: 600px !important;
+<<<<<<< HEAD
    }
+=======
+       margin-top: 190px;
+   }
+}
+
+@media screen and (min-width:1400px) and (max-width:2000px){
+    .top_left{
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (min-width:1701px) and (max-width:2000px){
+    .top_head{
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+       
+    }
+}
+
+@media screen and (min-width:2001px) and (max-width:2400px){
+    .top_head{
+        width: 70%;
+        margin: auto;
+        margin-top: 80px;
+       
+    }
+>>>>>>> dbdd570... last commit
 }

@@ -1,12 +1,25 @@
 import React from 'react'
 import Smartbar from "../assets/images/kitch_up.svg"
 import Smarticon from "../assets/images/kitch_down.svg"
+<<<<<<< HEAD
+=======
+import back_arrow from "../assets/images/back_arrow.png"
+>>>>>>> dbdd570... last commit
 import "../assets/css/details.css"
 const Kitchen = () => {
     return (
         <div className='res_div_usecases'> 
         <div className="ledger L"> 
+<<<<<<< HEAD
            <h1 className='head_use'>Smart Kitchen</h1>
+=======
+        <div className = "back_use_arrow">
+          <a href = "/use-cases"><img src = {back_arrow} className='back_arrow' /></a>
+        </div>
+        <div>
+           <h1 className='head_use'>Smart Kitchen</h1>
+        </div>
+>>>>>>> dbdd570... last commit
        </div>
        <div className='res_divs'>
          <img src={Smartbar}  className="img1 y" />
