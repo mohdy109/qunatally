@@ -2,7 +2,7 @@ import React from 'react'
 import Smartbar from "../assets/images/air_up.svg"
 import Smarticon from "../assets/images/air_down.svg"
 import "../assets/css/details.css"
-
+//airforce
 const Airforce = () => {
     return (
         <div className='res_div_usecases'> 
